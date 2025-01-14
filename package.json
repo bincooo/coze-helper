@@ -1,0 +1,23 @@
+{
+  "name": "coze-hel",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bincooo",
+  "license": "ISC",
+  "description": "",
+  "types": "types/hook.d.ts",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tslint": "^5.20.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
