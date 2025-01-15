@@ -168,7 +168,7 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  528 _0x4d9ccd:  
 
 ======
 ```js
-	// 35393903335504 = parseInt("1000000011000011001001000010010001100001010000",2);
+	// 35393903335504 = parseInt("10000000110000" + "11001001000010010001100001010000",2), "10000000110000" = params[??]
 
 ```
 
@@ -1860,7 +1860,7 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  6 _0x92922d ==  912 _0x4d9ccd:  [
 
 =======
 ```js
-	4294967296 = 65 + params[27], 27 = (指令数组[pos = 912] << 8) + 指令数组[pos = 912 + 1]
+	4294967296 = + params[27], 27 = (指令数组[pos = 912] << 8) + 指令数组[pos = 912 + 1]
 ```
 
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  27 _0x92922d ==  915 _0x4d9ccd:  ["yQkYU",null,null,35393903335504,4294967296,26,2]
@@ -1972,12 +1972,6 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  2 _0x92922d ==  90 _0x4d9ccd:  ["yQkYU","A",null,65,65,26,2]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  91 _0x4d9ccd:  ["yQkYU","A",null,65,65,26,2]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  94 _0x4d9ccd:  ["yQkYU","A",null,null,65,26,2]
-
-=======
-```js
-	515 = ???
-```
-
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  97 _0x4d9ccd:  ["yQkYU","A",null,null,515,26,2]
 
 =======
@@ -2044,12 +2038,6 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  24 _0x92922d ==  102 _0x4d9ccd:  ["yQkYU","A","A",null,65,65,26] 
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  2 _0x92922d ==  103 _0x4d9ccd:  ["yQkYU","AA","A",null,65,65,26]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  104 _0x4d9ccd:  ["yQkYU","AA",null,null,65,65,26]
-
-=======
-```js
-	515 = ???
-```
-
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  107 _0x4d9ccd:  ["yQkYU","AA",null,null,65,65,26]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  110 _0x4d9ccd:  ["yQkYU","AA",null,null,515,65,26]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  44 _0x92922d ==  112 _0x4d9ccd:  ["yQkYU","AA",null,null,515,12,26]

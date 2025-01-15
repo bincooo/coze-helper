@@ -24,10 +24,28 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  68 _0x92922d ==  289 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  74 _0x92922d ==  291 _0x4d9ccd:  ["2025-01-14T12:48:51.373Z"] _0x2e4dbc:  [null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  292 _0x4d9ccd:  ["2025-01-14T12:48:51.373Z","2025-01-14T12:48:51.373Z"] _0x2e4dbc:  [null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  295 _0x4d9ccd:  ["2025-01-14T12:48:51.373Z",null] _0x2e4dbc:  [null]
+
+>>>
+1736858931373 = new Date().getTime()
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  4 _0x92922d ==  297 _0x4d9ccd:  [1736858931373,null] _0x2e4dbc:  "2025-01-14T12:48:51.373Z"
+
+>>>
+1000 = ( (指令数组[pos = 297] << 8) + 指令数组[pos = 297 + 1] )
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  27 _0x92922d ==  300 _0x4d9ccd:  [1736858931373,1000] _0x2e4dbc:  "2025-01-14T12:48:51.373Z"
+
+>>>
+1736858931.373 = 1736858931373 / 1000
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  301 _0x4d9ccd:  [1736858931.373,1000] _0x2e4dbc:  "2025-01-14T12:48:51.373Z"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  303 _0x4d9ccd:  [1736858931.373,0] _0x2e4dbc:  "2025-01-14T12:48:51.373Z"
+
+>>>
+1736858931 = 1736858931.373 >>> 0
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  304 _0x4d9ccd:  [1736858931,0] _0x2e4dbc:  "2025-01-14T12:48:51.373Z"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  307 _0x4d9ccd:  [1736858931,0] _0x2e4dbc:  [[],0,null,null,null,null,null,0,0,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  310 _0x4d9ccd:  [{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},0] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
@@ -41,7 +59,25 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  325 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  327 _0x4d9ccd:  [null,null,null,null,0] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  7 _0x92922d ==  330 _0x4d9ccd:  [null,null,null,null,0,1736858931] _0x2e4dbc:  [[],0,null,null,null,null,null,0,0,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  333 _0x4d9ccd:  [null,null,null,null,0,1736858931,""] _0x2e4dbc:  [[],0,null,null,null,null,null,0,0,1736858931]
+
+>>>
+"1736858931" = 1736858931.toString()
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  334 _0x4d9ccd:  [null,null,null,null,0,"1736858931",""] _0x2e4dbc:  [[],0,null,null,null,null,null,0,0,1736858931]
+
+>>>
+```js
+	// 2534090369 = _0x10a34d.apply(null, [0, "1736858931"]);
+	function _0x2d72f8(_0x2ef8d2, _0x474cd5) {
+      for (var _0x25f71e = 0; _0x25f71e < _0x474cd5.length; _0x25f71e++) {
+        _0x2ef8d2 = (_0x2ef8d2 ^ _0x474cd5.charCodeAt(_0x25f71e)) * 65599 >>> 0;
+      }
+      return _0x2ef8d2;
+    }
+```
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  336 _0x4d9ccd:  [null,null,2534090369,null,0,"1736858931",""] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  339 _0x4d9ccd:  [null,null,2534090369,{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},0,"1736858931",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  74 _0x92922d ==  342 _0x4d9ccd:  [null,null,2534090369,"https://www.coze.com/",0,"1736858931",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
@@ -53,20 +89,65 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  355 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  357 _0x4d9ccd:  [null,null,2534090369,"https://www.coze.com/",null,6,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  358 _0x4d9ccd:  [null,null,2534090369,"https://www.coze.com/",null,8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  360 _0x4d9ccd:  [null,null,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  "https://www.coze.com/"
+
+>>>
+```js
+	// 4181143255 = _0x10a34d.apply(null, [2534090369, "www.coze.com/"]);
+	function _0x2d72f8(_0x2ef8d2, _0x474cd5) {
+      for (var _0x25f71e = 0; _0x25f71e < _0x474cd5.length; _0x25f71e++) {
+        _0x2ef8d2 = (_0x2ef8d2 ^ _0x474cd5.charCodeAt(_0x25f71e)) * 65599 >>> 0;
+      }
+      return _0x2ef8d2;
+    }
+```
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  5 _0x92922d ==  362 _0x4d9ccd:  [4181143255,null,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  null
+
+>>>
+65521 = ( ( ( ( (指令数组[pos = 362] << 8) + 指令数组[pos = 362 + 1] ) << 8 ) + 指令数组[pos = 362 + 2] ) << 8 ) + 指令数组[pos = 362 + 3]
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  28 _0x92922d ==  367 _0x4d9ccd:  [4181143255,65521,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  null
+
+>>>
+51682 = 4181143255 % 65521
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  368 _0x4d9ccd:  [51682,65521,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  371 _0x4d9ccd:  [51682,65521,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  374 _0x4d9ccd:  [1736858931,65521,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  5 _0x92922d ==  377 _0x4d9ccd:  [1736858931,51682,2534090369,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  26 _0x92922d ==  382 _0x4d9ccd:  [1736858931,51682,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
+
+>>>
+3386256322 = 51682 * 65521
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  49 _0x92922d ==  383 _0x4d9ccd:  [1736858931,3386256322,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
+
+>>>
+-1370458383 = 1736858931 ^ 3386256322
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  384 _0x4d9ccd:  [-1370458383,3386256322,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  386 _0x4d9ccd:  [-1370458383,0,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
+
+>>>
+2924508913 = -1370458383 >>> 0
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  74 _0x92922d ==  387 _0x4d9ccd:  [2924508913,0,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  388 _0x4d9ccd:  [2924508913,2924508913,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  391 _0x4d9ccd:  [2924508913,null,65521,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  393 _0x4d9ccd:  [2924508913,null,2,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931]
+
+>>>
+"10101110010100000111011011110001" = Number(2924508913).toString(2)
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  395 _0x4d9ccd:  ["10101110010100000111011011110001",null,2,"www.coze.com/",null,8,2] _0x2e4dbc:  2924508913
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  398 _0x4d9ccd:  ["10101110010100000111011011110001",null,2,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931,"10101110010100000111011011110001"]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  401 _0x4d9ccd:  ["10101110010100000111011011110001",null,2,"www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,0,51682,1736858931,"10101110010100000111011011110001"]
@@ -89,6 +170,12 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  520 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  523 _0x4d9ccd:  [null,null,2,"www.coze.com/",null,8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  526 _0x4d9ccd:  [null,null,"1000000011000010101110010100000111011011110001","www.coze.com/",null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,"1000000011000010101110010100000111011011110001",51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  528 _0x4d9ccd:  [null,null,"1000000011000010101110010100000111011011110001",2,null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,"1000000011000010101110010100000111011011110001",51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
+
+>>>
+35393455027953 = parseInt("10000000110000" + "10101110010100000111011011110001",2), "10000000110000" = params[??]
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  530 _0x4d9ccd:  [35393455027953,null,"1000000011000010101110010100000111011011110001",2,null,8,2] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  533 _0x4d9ccd:  [35393455027953,null,"1000000011000010101110010100000111011011110001",2,null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  534 _0x4d9ccd:  [null,null,"1000000011000010101110010100000111011011110001",2,null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
@@ -97,6 +184,17 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  539 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  7 _0x92922d ==  542 _0x4d9ccd:  [null,null,0,35393455027953,null,8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  545 _0x4d9ccd:  [null,null,0,35393455027953,"",8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  546 _0x4d9ccd:  [null,null,0,"35393455027953","",8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001"]
+
+>>>
+// 3680146767 = _0x10a34d.apply(null, [0, "35393455027953"]);
+function _0x2d72f8(_0x2ef8d2, _0x474cd5) {
+      for (var _0x25f71e = 0; _0x25f71e < _0x474cd5.length; _0x25f71e++) {
+        _0x2ef8d2 = (_0x2ef8d2 ^ _0x474cd5.charCodeAt(_0x25f71e)) * 65599 >>> 0;
+      }
+      return _0x2ef8d2;
+    }
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  548 _0x4d9ccd:  [3680146767,null,0,"35393455027953","",8,2] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  551 _0x4d9ccd:  [3680146767,null,0,"35393455027953","",8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  552 _0x4d9ccd:  [null,null,0,"35393455027953","",8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767]
@@ -1472,6 +1570,18 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  51 _0x92922d ==  847 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  850 _0x4d9ccd:  [true,null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  851 _0x4d9ccd:  [null,null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  854 _0x4d9ccd:  [null,null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
+
+>>>
+2729189100 == _0x10a34d.apply(null, []);
+function _0x46b4a1() {
+      try {
+        return _0x416641 || (_0xac2a16.perf ? -1 : _0x416641 = _0x5ed50a(3735928559));
+      } catch (_0x3429f4) {
+        return -1;
+      }
+    }
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  856 _0x4d9ccd:  [2729189100,null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  859 _0x4d9ccd:  [2729189100,null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  [[],0,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  862 _0x4d9ccd:  [{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},null,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","",8,2] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
@@ -1504,6 +1614,11 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  147 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  150 _0x4d9ccd:  [null,null,35393455027953,null,"tt_scid",8,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  153 _0x4d9ccd:  [null,null,35393455027953,null,"tt_scid",8,2] _0x2e4dbc:  [[35393455027953],35393455027953]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  155 _0x4d9ccd:  [null,null,35393455027953,2,"tt_scid",8,2] _0x2e4dbc:  [[35393455027953],35393455027953]
+
+>>>
+-342614596 = 35393455027953 >> 2
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  156 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  [[35393455027953],35393455027953]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  72 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  75 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
@@ -1511,11 +1626,31 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  [n
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  [null,null,-342614596,2,"tt_scid",8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+24 = 指令数组[pos = 85] << 24 >> 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  [null,null,-342614596,24,"tt_scid",8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+-21 = -342614596 >> 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  [null,null,-21,24,"tt_scid",8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  [null,null,-21,24,"tt_scid",8,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  [-21,null,-21,24,"tt_scid",8,2] _0x2e4dbc:  [[-21],-21]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  [-21,63,-21,24,"tt_scid",8,2] _0x2e4dbc:  [[-21],-21]
+
+>>>
+43 = -21 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  [43,63,-21,24,"tt_scid",8,2] _0x2e4dbc:  [[-21],-21]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  [43,[[-21],-21],1,24,"tt_scid",8,2] _0x2e4dbc:  [[-21],-21]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  [43,[[-21],43],1,24,"tt_scid",8,2] _0x2e4dbc:  [[-21],43]
@@ -1532,15 +1667,26 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  [n
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  [null,null,43,43,52,8,2] _0x2e4dbc:  [[-21],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  [null,null,43,true,52,8,2] _0x2e4dbc:  [[-21],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  [null,null,43,true,52,8,2] _0x2e4dbc:  [[-21],43]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  [null,null,43,71,52,8,2] _0x2e4dbc:  [[-21],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  [null,null,43,71,52,8,2] _0x2e4dbc:  [[-21],43]
+
+>>>
+114 = 43 + 71
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  [null,null,114,71,52,8,2] _0x2e4dbc:  [[-21],43]
 
 
 
+
 ======================================= loop 1 rlB28 ==========================
-
-
+>>>
+"r" = String.fromCharCode(114)
 
 
 
@@ -1550,11 +1696,29 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  90 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  91 _0x4d9ccd:  ["r",null,114,71,52,8,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  94 _0x4d9ccd:  ["r",null,null,71,52,8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  97 _0x4d9ccd:  ["r",null,null,-342614596,52,8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+18 = 指令数组[pos = 97] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  99 _0x4d9ccd:  ["r",null,null,-342614596,18,8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+-1307 = -342614596 >> 18
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  100 _0x4d9ccd:  ["r",null,null,-1307,18,8,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["r",null,null,-1307,18,8,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["r",-1307,null,-1307,18,8,2] _0x2e4dbc:  [[-1307],-1307]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["r",-1307,63,-1307,18,8,2] _0x2e4dbc:  [[-1307],-1307]
+
+>>>
+37 = -1307 & 63
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["r",37,63,-1307,18,8,2] _0x2e4dbc:  [[-1307],-1307]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["r",37,[[-1307],-1307],1,18,8,2] _0x2e4dbc:  [[-1307],-1307]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["r",37,[[-1307],37],1,18,8,2] _0x2e4dbc:  [[-1307],37]
@@ -1571,15 +1735,33 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  ["r",null,null,37,37,52,2] _0x2e4dbc:  [[-1307],37]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  ["r",null,null,37,true,52,2] _0x2e4dbc:  [[-1307],37]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["r",null,null,37,true,52,2] _0x2e4dbc:  [[-1307],37]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["r",null,null,37,71,52,2] _0x2e4dbc:  [[-1307],37]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["r",null,null,37,71,52,2] _0x2e4dbc:  [[-1307],37]
+
+>>>
+108 = 37 + 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["r",null,null,108,71,52,2] _0x2e4dbc:  [[-1307],37]
+
+>>>
+"l" = String.fromCharCode(108)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["r","l",null,108,71,52,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  102 _0x4d9ccd:  ["r","l",null,108,71,52,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  103 _0x4d9ccd:  ["rl","l",null,108,71,52,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  104 _0x4d9ccd:  ["rl",null,null,108,71,52,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  107 _0x4d9ccd:  ["rl",null,null,108,71,52,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  110 _0x4d9ccd:  ["rl",null,null,-342614596,71,52,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+12 = 指令数组[pos = 110] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  112 _0x4d9ccd:  ["rl",null,null,-342614596,12,52,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  113 _0x4d9ccd:  ["rl",null,null,-83647,12,52,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rl",null,null,-83647,12,52,2] _0x2e4dbc:  "[object Window]"
@@ -1597,20 +1779,47 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rl",null,null,1,1,26,2] _0x2e4dbc:  [[-83647],1]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rl",null,null,1,true,26,2] _0x2e4dbc:  [[-83647],1]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rl",null,null,1,true,26,2] _0x2e4dbc:  [[-83647],1]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rl",null,null,1,65,26,2] _0x2e4dbc:  [[-83647],1]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rl",null,null,1,65,26,2] _0x2e4dbc:  [[-83647],1]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rl",null,null,66,65,26,2] _0x2e4dbc:  [[-83647],1]
+
+>>>
+"B" = String.fromCharCode(66)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rl","B",null,66,65,26,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  115 _0x4d9ccd:  ["rl","B",null,66,65,26,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  116 _0x4d9ccd:  ["rlB","B",null,66,65,26,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  117 _0x4d9ccd:  ["rlB",null,null,66,65,26,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  120 _0x4d9ccd:  ["rlB",null,null,66,65,26,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  123 _0x4d9ccd:  ["rlB",null,null,-342614596,65,26,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+6 = 指令数组[pos = 123] << 24 >> 24;
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  125 _0x4d9ccd:  ["rlB",null,null,-342614596,6,26,2] _0x2e4dbc:  [[-342614596],-342614596,null]
+
+>>>
+-5353354 = -342614596 >> 6
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  126 _0x4d9ccd:  ["rlB",null,null,-5353354,6,26,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB",null,null,-5353354,6,26,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB",-5353354,null,-5353354,6,26,2] _0x2e4dbc:  [[-5353354],-5353354]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB",-5353354,63,-5353354,6,26,2] _0x2e4dbc:  [[-5353354],-5353354]
+
+>>>
+54 = -5353354 & 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB",54,63,-5353354,6,26,2] _0x2e4dbc:  [[-5353354],-5353354]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB",54,[[-5353354],-5353354],1,6,26,2] _0x2e4dbc:  [[-5353354],-5353354]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB",54,[[-5353354],54],1,6,26,2] _0x2e4dbc:  [[-5353354],54]
@@ -1631,10 +1840,27 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  53 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  55 _0x4d9ccd:  ["rlB",null,null,54,54,62,2] _0x2e4dbc:  [[-5353354],54]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  56 _0x4d9ccd:  ["rlB",null,null,54,true,62,2] _0x2e4dbc:  [[-5353354],54]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  59 _0x4d9ccd:  ["rlB",null,null,54,true,62,2] _0x2e4dbc:  [[-5353354],54]
+
+4 = 指令数组[pos = 59], 4 << 24 >> 24 = 4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  61 _0x4d9ccd:  ["rlB",null,null,54,4,62,2] _0x2e4dbc:  [[-5353354],54]
+
+>>>
+-4 = - 4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  62 _0x4d9ccd:  ["rlB",null,null,54,-4,62,2] _0x2e4dbc:  [[-5353354],54]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB",null,null,54,-4,62,2] _0x2e4dbc:  [[-5353354],54]
+
+>>>
+50 = 54 + -4
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB",null,null,50,-4,62,2] _0x2e4dbc:  [[-5353354],54]
+
+>>>
+"2" = String.fromCharCode(50)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB","2",null,50,-4,62,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  128 _0x4d9ccd:  ["rlB","2",null,50,-4,62,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  129 _0x4d9ccd:  ["rlB2","2",null,50,-4,62,2] _0x2e4dbc:  undefined
@@ -1643,7 +1869,17 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  133 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  136 _0x4d9ccd:  ["rlB2",null,null,-342614596,-4,62,2] _0x2e4dbc:  [[-342614596],-342614596,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB2",null,null,-342614596,-4,62,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB2",-342614596,null,-342614596,-4,62,2] _0x2e4dbc:  [[-342614596],-342614596]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB2",-342614596,63,-342614596,-4,62,2] _0x2e4dbc:  [[-342614596],-342614596]
+
+>>>
+60 = -342614596 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB2",60,63,-342614596,-4,62,2] _0x2e4dbc:  [[-342614596],-342614596]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB2",60,[[-342614596],-342614596],1,-4,62,2] _0x2e4dbc:  [[-342614596],-342614596]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB2",60,[[-342614596],60],1,-4,62,2] _0x2e4dbc:  [[-342614596],60]
@@ -1664,10 +1900,27 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  53 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  55 _0x4d9ccd:  ["rlB2",null,null,60,60,62,2] _0x2e4dbc:  [[-342614596],60]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  56 _0x4d9ccd:  ["rlB2",null,null,60,true,62,2] _0x2e4dbc:  [[-342614596],60]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  59 _0x4d9ccd:  ["rlB2",null,null,60,true,62,2] _0x2e4dbc:  [[-342614596],60]
+
+>>>
+4 = 指令数组[pos = 59], 4 << 24 >> 24 = 4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  61 _0x4d9ccd:  ["rlB2",null,null,60,4,62,2] _0x2e4dbc:  [[-342614596],60]
+
+>>>
+-4 = - 4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  62 _0x4d9ccd:  ["rlB2",null,null,60,-4,62,2] _0x2e4dbc:  [[-342614596],60]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB2",null,null,60,-4,62,2] _0x2e4dbc:  [[-342614596],60]
+
+>>>
+56 = 60 + -4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB2",null,null,56,-4,62,2] _0x2e4dbc:  [[-342614596],60]
+
+>>>
+"8" = String.fromCharCode(56)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB2","8",null,56,-4,62,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  138 _0x4d9ccd:  ["rlB2","8",null,56,-4,62,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  139 _0x4d9ccd:  ["rlB28","8",null,56,-4,62,2] _0x2e4dbc:  undefined
@@ -1676,17 +1929,41 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  905 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  906 _0x4d9ccd:  ["rlB28",null,null,56,-4,62,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  909 _0x4d9ccd:  ["rlB28",null,null,56,-4,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  6 _0x92922d ==  912 _0x4d9ccd:  ["rlB28",null,null,35393455027953,-4,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+4294967296 = + params[27], 27 = (指令数组[pos = 912] << 8) + 指令数组[pos = 912 + 1]
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  27 _0x92922d ==  915 _0x4d9ccd:  ["rlB28",null,null,35393455027953,4294967296,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+8240.680915292585 = 35393455027953 / 4294967296
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  916 _0x4d9ccd:  ["rlB28",null,null,8240.680915292585,4294967296,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  918 _0x4d9ccd:  ["rlB28",null,null,8240.680915292585,0,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  919 _0x4d9ccd:  ["rlB28",null,null,8240,0,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  159 _0x4d9ccd:  ["rlB28",null,null,8240,0,62,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  162 _0x4d9ccd:  ["rlB28",35393455027953,null,8240,0,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  164 _0x4d9ccd:  ["rlB28",35393455027953,28,8240,0,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+268435456 = 35393455027953 << 28
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  165 _0x4d9ccd:  ["rlB28",268435456,28,8240,0,62,2] _0x2e4dbc:  [[],35393455027953,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  168 _0x4d9ccd:  ["rlB28",268435456,8240,8240,0,62,2] _0x2e4dbc:  [[8240],8240]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  170 _0x4d9ccd:  ["rlB28",268435456,8240,4,0,62,2] _0x2e4dbc:  [[8240],8240]
+
+>>>
+515 = 8240 >> 4
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  47 _0x92922d ==  171 _0x4d9ccd:  ["rlB28",268435456,515,4,0,62,2] _0x2e4dbc:  [[8240],8240]
+
+>>>
+268435971 = 268435456 ^ 515
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  172 _0x4d9ccd:  ["rlB28",268435971,515,4,0,62,2] _0x2e4dbc:  [[8240],8240]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  175 _0x4d9ccd:  ["rlB28",268435971,515,4,0,62,2] _0x2e4dbc:  [[8240],8240,268435971]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  178 _0x4d9ccd:  ["rlB28",8240,515,4,0,62,2] _0x2e4dbc:  [[8240],8240,268435971]
@@ -1700,11 +1977,29 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  ["rlB28",null,null,268435971,0,62,2] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  ["rlB28",null,null,268435971,0,62,2] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  ["rlB28",null,null,268435971,0,62,2] _0x2e4dbc:  [[268435971],268435971,null]
+
+>>>
+24 = 指令数组[pos = 85] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  ["rlB28",null,null,268435971,24,62,2] _0x2e4dbc:  [[268435971],268435971,null]
+
+>>>
+16 = 268435971 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  ["rlB28",null,null,16,24,62,2] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28",null,null,16,24,62,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28",16,null,16,24,62,2] _0x2e4dbc:  [[16],16]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28",16,63,16,24,62,2] _0x2e4dbc:  [[16],16]
+
+>>>
+16 = 16 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28",16,63,16,24,62,2] _0x2e4dbc:  [[16],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28",16,[[16],16],1,24,62,2] _0x2e4dbc:  [[16],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28",16,[[16],16],1,24,62,2] _0x2e4dbc:  [[16],16]
@@ -1717,14 +2012,24 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28",null,null,16,16,26,2] _0x2e4dbc:  [[16],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28",null,null,16,true,26,2] _0x2e4dbc:  [[16],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28",null,null,16,true,26,2] _0x2e4dbc:  [[16],16]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28",null,null,16,65,26,2] _0x2e4dbc:  [[16],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28",null,null,16,65,26,2] _0x2e4dbc:  [[16],16]
+
+>>>
+81 = 16 + 65
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28",null,null,81,65,26,2] _0x2e4dbc:  [[16],16]
 
 
 
 ======================================= loop 2 QAAID ==========================
-
+>>>
+"Q" = String.fromCharCode(81)
 
 
 
@@ -1734,11 +2039,27 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  90 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  91 _0x4d9ccd:  ["rlB28","Q",null,81,65,26,2] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  94 _0x4d9ccd:  ["rlB28","Q",null,null,65,26,2] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  97 _0x4d9ccd:  ["rlB28","Q",null,null,268435971,26,2] _0x2e4dbc:  [[268435971],268435971,null]
+
+>>>
+18 = 指令数组[pos = 97] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  99 _0x4d9ccd:  ["rlB28","Q",null,null,268435971,18,2] _0x2e4dbc:  [[268435971],268435971,null]
+
+>>>
+1024 = 268435971 >> 18
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  100 _0x4d9ccd:  ["rlB28","Q",null,null,1024,18,2] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28","Q",null,null,1024,18,2] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28","Q",1024,null,1024,18,2] _0x2e4dbc:  [[1024],1024]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28","Q",1024,63,1024,18,2] _0x2e4dbc:  [[1024],1024]
+
+>>>
+0 = 1024 & 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28","Q",0,63,1024,18,2] _0x2e4dbc:  [[1024],1024]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28","Q",0,[[1024],1024],1,18,2] _0x2e4dbc:  [[1024],1024]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28","Q",0,[[1024],0],1,18,2] _0x2e4dbc:  [[1024],0]
@@ -1751,9 +2072,23 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28","Q",null,null,0,0,26] _0x2e4dbc:  [[1024],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28","Q",null,null,0,true,26] _0x2e4dbc:  [[1024],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28","Q",null,null,0,true,26] _0x2e4dbc:  [[1024],0]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28","Q",null,null,0,65,26] _0x2e4dbc:  [[1024],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28","Q",null,null,0,65,26] _0x2e4dbc:  [[1024],0]
+
+>>>
+65 = 0 + 65
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28","Q",null,null,65,65,26] _0x2e4dbc:  [[1024],0]
+
+>>>
+"A" = String.fromCharCode(65)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28","Q","A",null,65,65,26] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  102 _0x4d9ccd:  ["rlB28","Q","A",null,65,65,26] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  103 _0x4d9ccd:  ["rlB28","QA","A",null,65,65,26] _0x2e4dbc:  undefined
@@ -1814,7 +2149,17 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  133 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  136 _0x4d9ccd:  ["rlB28","QAAI",null,null,268435971,65,26] _0x2e4dbc:  [[268435971],268435971,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28","QAAI",null,null,268435971,65,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28","QAAI",268435971,null,268435971,65,26] _0x2e4dbc:  [[268435971],268435971]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28","QAAI",268435971,63,268435971,65,26] _0x2e4dbc:  [[268435971],268435971]
+
+>>>
+3 = 268435971 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28","QAAI",3,63,268435971,65,26] _0x2e4dbc:  [[268435971],268435971]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28","QAAI",3,[[268435971],268435971],1,65,26] _0x2e4dbc:  [[268435971],268435971]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28","QAAI",3,[[268435971],3],1,65,26] _0x2e4dbc:  [[268435971],3]
@@ -1827,9 +2172,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28","QAAI",null,null,3,3,26] _0x2e4dbc:  [[268435971],3]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28","QAAI",null,null,3,true,26] _0x2e4dbc:  [[268435971],3]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28","QAAI",null,null,3,true,26] _0x2e4dbc:  [[268435971],3]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28","QAAI",null,null,3,65,26] _0x2e4dbc:  [[268435971],3]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28","QAAI",null,null,3,65,26] _0x2e4dbc:  [[268435971],3]
+
+>>>
+68 = 3 + 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28","QAAI",null,null,68,65,26] _0x2e4dbc:  [[268435971],3]
+
+>>>
+"D" = String.fromCharCode(68)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28","QAAI","D",null,68,65,26] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  138 _0x4d9ccd:  ["rlB28","QAAI","D",null,68,65,26] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  139 _0x4d9ccd:  ["rlB28","QAAID","D",null,68,65,26] _0x2e4dbc:  undefined
@@ -1840,16 +2198,42 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  923 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  926 _0x4d9ccd:  ["rlB28QAAID",null,null,null,68,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  929 _0x4d9ccd:  ["rlB28QAAID",null,null,2729189100,68,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  49 _0x92922d ==  932 _0x4d9ccd:  ["rlB28QAAID",null,null,2729189100,35393455027953,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+217868317 = 2729189100 ^ 35393455027953
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  933 _0x4d9ccd:  ["rlB28QAAID",null,null,217868317,35393455027953,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  191 _0x4d9ccd:  ["rlB28QAAID",null,null,217868317,35393455027953,65,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  192 _0x4d9ccd:  ["rlB28QAAID",null,null,217868317,35393455027953,65,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  195 _0x4d9ccd:  ["rlB28QAAID",null,null,217868317,35393455027953,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  198 _0x4d9ccd:  ["rlB28QAAID",null,null,8240,35393455027953,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+26 = 指令数组[pos = 198]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  200 _0x4d9ccd:  ["rlB28QAAID",null,null,8240,26,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+-1073741824 = 8240 << 26
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  201 _0x4d9ccd:  ["rlB28QAAID",null,null,-1073741824,26,65,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  204 _0x4d9ccd:  ["rlB28QAAID",null,null,-1073741824,217868317,65,26] _0x2e4dbc:  [[217868317],217868317]
+
+>>>
+6 = 指令数组[pos = 204] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  206 _0x4d9ccd:  ["rlB28QAAID",null,null,-1073741824,217868317,6,26] _0x2e4dbc:  [[217868317],217868317]
+
+>>>
+3404192 = 217868317 >> 6
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  47 _0x92922d ==  207 _0x4d9ccd:  ["rlB28QAAID",null,null,-1073741824,3404192,6,26] _0x2e4dbc:  [[217868317],217868317]
+
+>>>
+-1070337632 = -1073741824 | 3404192
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  208 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  [[217868317],217868317]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  72 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  75 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
@@ -1857,11 +2241,28 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,3404192,6,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
+
+>>>
+24 = 指令数组[pos = 85] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  ["rlB28QAAID",null,null,-1070337632,24,6,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
+
+>>>
+-64 = -1070337632 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  ["rlB28QAAID",null,null,-64,24,6,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAID",null,null,-64,24,6,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAID",-64,null,-64,24,6,26] _0x2e4dbc:  [[-64],-64]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAID",-64,63,-64,24,6,26] _0x2e4dbc:  [[-64],-64]
+
+>>>
+0 = -64 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAID",0,63,-64,24,6,26] _0x2e4dbc:  [[-64],-64]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAID",0,[[-64],-64],1,24,6,26] _0x2e4dbc:  [[-64],-64]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAID",0,[[-64],0],1,24,6,26] _0x2e4dbc:  [[-64],0]
@@ -1874,15 +2275,23 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28QAAID",null,null,0,0,26,26] _0x2e4dbc:  [[-64],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28QAAID",null,null,0,true,26,26] _0x2e4dbc:  [[-64],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28QAAID",null,null,0,true,26,26] _0x2e4dbc:  [[-64],0]
+
+>>>
+65 = 指令数组[pos = 31] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28QAAID",null,null,0,65,26,26] _0x2e4dbc:  [[-64],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAID",null,null,0,65,26,26] _0x2e4dbc:  [[-64],0]
+
+>>>
+65 = 0 + 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAID",null,null,65,65,26,26] _0x2e4dbc:  [[-64],0]
 
 
 ======================================= loop 3 AM.Ggd ==========================
 特殊，这个循环组有6个字
 
-
+"A" = String.fromCharCode(65)
 
 
 
@@ -1921,6 +2330,10 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  112 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  113 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,-261313,12,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,-261313,12,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAID","AM",-261313,null,-261313,12,26] _0x2e4dbc:  [[-261313],-261313]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAID","AM",-261313,63,-261313,12,26] _0x2e4dbc:  [[-261313],-261313]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAID","AM",63,63,-261313,12,26] _0x2e4dbc:  [[-261313],-261313]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAID","AM",63,[[-261313],-261313],1,12,26] _0x2e4dbc:  [[-261313],-261313]
@@ -1942,11 +2355,24 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  53 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  55 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,63,63,62] _0x2e4dbc:  [[-261313],63]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  56 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,63,false,62] _0x2e4dbc:  [[-261313],63]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  65 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,63,false,62] _0x2e4dbc:  [[-261313],63]
+
+>>>
+-17 = - 指令数组[pos = 65]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  67 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,63,17,62] _0x2e4dbc:  [[-261313],63]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,63,-17,62] _0x2e4dbc:  [[-261313],63]
+
+>>>
+46 = 63 + -17
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAID","AM",null,null,46,-17,62] _0x2e4dbc:  [[-261313],63]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAID","AM",".",null,46,-17,62] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  115 _0x4d9ccd:  ["rlB28QAAID","AM",".",null,46,-17,62] _0x2e4dbc:  undefined
+
+>>>
+"." = String.fromCharCode(46)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  116 _0x4d9ccd:  ["rlB28QAAID","AM.",".",null,46,-17,62] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  117 _0x4d9ccd:  ["rlB28QAAID","AM.",null,null,46,-17,62] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  120 _0x4d9ccd:  ["rlB28QAAID","AM.",null,null,46,-17,62] _0x2e4dbc:  [[-1070337632],-1070337632,null]
@@ -1979,7 +2405,16 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  133 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  136 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,-1070337632,65,26] _0x2e4dbc:  [[-1070337632],-1070337632,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,-1070337632,65,26] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAID","AM.G",-1070337632,null,-1070337632,65,26] _0x2e4dbc:  [[-1070337632],-1070337632]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAID","AM.G",-1070337632,63,-1070337632,65,26] _0x2e4dbc:  [[-1070337632],-1070337632]
+
+>>>
+32 = -1070337632 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAID","AM.G",32,63,-1070337632,65,26] _0x2e4dbc:  [[-1070337632],-1070337632]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAID","AM.G",32,[[-1070337632],-1070337632],1,65,26] _0x2e4dbc:  [[-1070337632],-1070337632]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAID","AM.G",32,[[-1070337632],32],1,65,26] _0x2e4dbc:  [[-1070337632],32]
@@ -1996,9 +2431,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,32,32,52] _0x2e4dbc:  [[-1070337632],32]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,32,true,52] _0x2e4dbc:  [[-1070337632],32]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,32,true,52] _0x2e4dbc:  [[-1070337632],32]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,32,71,52] _0x2e4dbc:  [[-1070337632],32]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,32,71,52] _0x2e4dbc:  [[-1070337632],32]
+
+>>>
+103 = 32 + 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAID","AM.G",null,null,103,71,52] _0x2e4dbc:  [[-1070337632],32]
+
+>>>
+"g" = String.fromCharCode(103)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAID","AM.G","g",null,103,71,52] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  138 _0x4d9ccd:  ["rlB28QAAID","AM.G","g",null,103,71,52] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  139 _0x4d9ccd:  ["rlB28QAAID","AM.Gg","g",null,103,71,52] _0x2e4dbc:  undefined
@@ -2008,7 +2456,16 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  214 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  217 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,217868317,71,52] _0x2e4dbc:  [[217868317],217868317]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,217868317,71,52] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",217868317,null,217868317,71,52] _0x2e4dbc:  [[217868317],217868317]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",217868317,63,217868317,71,52] _0x2e4dbc:  [[217868317],217868317]
+
+>>>
+29 = 217868317 & 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",29,63,217868317,71,52] _0x2e4dbc:  [[217868317],217868317]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",29,[[217868317],217868317],1,71,52] _0x2e4dbc:  [[217868317],217868317]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",29,[[217868317],29],1,71,52] _0x2e4dbc:  [[217868317],29]
@@ -2025,9 +2482,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,29,29,52] _0x2e4dbc:  [[217868317],29]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,29,true,52] _0x2e4dbc:  [[217868317],29]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,29,true,52] _0x2e4dbc:  [[217868317],29]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,29,71,52] _0x2e4dbc:  [[217868317],29]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,29,71,52] _0x2e4dbc:  [[217868317],29]
+
+>>>
+100 = 29 + 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAID","AM.Gg",null,null,100,71,52] _0x2e4dbc:  [[217868317],29]
+
+>>>
+"d" = String.fromCharCode(100)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAID","AM.Gg","d",null,100,71,52] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  219 _0x4d9ccd:  ["rlB28QAAID","AM.Gg","d",null,100,71,52] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  220 _0x4d9ccd:  ["rlB28QAAID","AM.Ggd","d",null,100,71,52] _0x2e4dbc:  undefined
@@ -2047,10 +2517,39 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  74 _0x92922d ==  963 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  964 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,null,null,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  967 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,null,null,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  969 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,null,null,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+
+>>>
+// 2396438437 = _0x10a34d.apply(null, [3680146767, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"]);
+function _0x2d72f8(_0x2ef8d2, _0x474cd5) {
+      for (var _0x25f71e = 0; _0x25f71e < _0x474cd5.length; _0x25f71e++) {
+        _0x2ef8d2 = (_0x2ef8d2 ^ _0x474cd5.charCodeAt(_0x25f71e)) * 65599 >>> 0;
+      }
+      return _0x2ef8d2;
+    }
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  5 _0x92922d ==  971 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,2396438437,null,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
+
+>>>
+65521 = ( ( ( ( (指令数组[pos = 971] << 8) + 指令数组[pos = 971 + 1] ) << 8 ) + 指令数组[pos = 971 + 2] ) << 8 ) + 指令数组[pos = 971 + 3]
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  28 _0x92922d ==  976 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,2396438437,65521,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
+
+>>>
+7862 = 2396438437 % 65521
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  977 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7862,65521,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
+
+>>>
+16 = 指令数组[pos = 977] << 24 >> 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  979 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7862,16,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
+
+>>>
+515244032 = 7862 << 16
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  980 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,16,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  981 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,null,3680146767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  984 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,null,null,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
@@ -2058,9 +2557,28 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  987 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  7 _0x92922d ==  990 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,null,null,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid="] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  993 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,null,null,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  994 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,null,null,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],8240,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
-webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  5 _0x92922d ==  996 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,2201684832,null,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  null
-webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  28 _0x92922d ==  1001 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,2201684832,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  null
+
+>>>
+// 2201684832 = _0x10a34d.apply(null, [3680146767, "X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid="]);
+function _0x2d72f8(_0x2ef8d2, _0x474cd5) {
+      for (var _0x25f71e = 0; _0x25f71e < _0x474cd5.length; _0x25f71e++) {
+        _0x2ef8d2 = (_0x2ef8d2 ^ _0x474cd5.charCodeAt(_0x25f71e)) * 65599 >>> 0;
+      }
+      return _0x2ef8d2;
+    }
+
+webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  5 _0x92922d ==  996 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,2201684832,null,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  28 _0x92922d ==  1001 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,2201684832,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  null
+
+>>>
+48190 = 2201684832 % 65521
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  47 _0x92922d ==  1002 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515244032,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  null
+
+>>>
+515292222 = 515244032 ^ 48190
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  1003 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  null
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  140 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  143 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",515292222,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[515292222],515292222]
@@ -2068,7 +2586,16 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  146 _0x4d9ccd:  [
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  147 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  150 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  153 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,48190,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[515292222],515292222]
+
+>>>
+2 = 指令数组[pos = 153], 2 << 24 >> 24 = 2
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  155 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,515292222,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[515292222],515292222]
+
+>>>
+128823055 = 515292222 >> 2
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  156 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[515292222],515292222]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  72 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  75 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
@@ -2076,7 +2603,16 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,2,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
+
+>>>
+24 = 指令数组[pos = 85], 24 << 24 >> 24 = 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,128823055,24,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
+
+>>>
+7 = 128823055 >> 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,24,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,24,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",7,null,7,24,65521,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
@@ -2093,15 +2629,26 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,7,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,true,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,true,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,7,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
+
+>>>
+72 = 7 + 65
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd",null,null,72,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[7],7]
 
 
 
 
 ======================================= loop 4 Hra8P ==========================
-
+>>>
+"H" = String.fromCharCode(72)
 
 
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,72,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2109,11 +2656,32 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  90 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  91 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,72,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  94 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,65,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  97 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,128823055,26,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
+
+>>>
+18 = 指令数组[pos = 97] << 24 >> 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  99 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,128823055,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
+
+>>>
+491 = 128823055 >> 18
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  100 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,491,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,491,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",491,null,491,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],491]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",491,63,491,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],491]
+
+>>>
+43 = 491 & 63
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",43,63,491,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],491]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",43,[[491],491],1,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],491]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",43,[[491],43],1,18,3680146767,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
@@ -2130,9 +2698,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,43,43,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,43,true,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,43,true,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,43,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,43,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
+
+>>>
+114 = 43 + 71
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H",null,null,114,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[491],43]
+
+>>>
+"r" = String.fromCharCode(114)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H","r",null,114,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  102 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","H","r",null,114,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  103 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hr","r",null,114,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2197,7 +2778,16 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  59 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  61 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra",null,null,60,4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[2012860],60]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  62 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra",null,null,60,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[2012860],60]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra",null,null,60,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[2012860],60]
+
+>>>
+56 = 60 + -4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra",null,null,56,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[2012860],60]
+
+>>>
+"8" = String.fromCharCode(56)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra","8",null,56,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  128 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra","8",null,56,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  129 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8","8",null,56,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2206,7 +2796,17 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  133 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  136 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,128823055,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,128823055,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",128823055,null,128823055,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",128823055,63,128823055,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055]
+
+>>>
+15 = 128823055 & 63
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",15,63,128823055,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",15,[[128823055],128823055],1,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],128823055]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",15,[[128823055],15],1,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
@@ -2219,9 +2819,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,15,15,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,15,true,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,15,true,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,15,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,15,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
+
+>>>
+80 = 15 + 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8",null,null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[128823055],15]
+
+>>>
+"P" = String.fromCharCode(80)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8","P",null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  138 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8","P",null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  139 _0x4d9ccd:  ["rlB28QAAIDAM.Ggd","Hra8P","P",null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2230,23 +2843,75 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  1005 _0x4d9ccd: 
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  1006 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","Hra8P","P",null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1007 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,"P",null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1010 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,null,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+1 = ???
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  1013 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,1,80,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+8 = 指令数组[pos = 1013]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  1015 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,1,8,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+256 = 1 << 8
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1016 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,256,8,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  18 _0x92922d ==  1019 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,256,{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
+
+>>>
+2 = info['feVersion']
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  1022 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,256,2,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
+
+>>>
+4 = 指令数组[pos = 1022], 4 << 24 >> 24 = 4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  1024 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,256,2,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
+
+>>>
+32 = 2 << 4
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  47 _0x92922d ==  1025 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,256,32,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
+
+>>>
+288 = 256 | 32
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1026 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,288,32,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  {"2":{"__version__":"2.11.0","feVersion":2,"domNotValid":false,"refererKey":"__ac_referer","pushVersion":"B4Z6wo","secInfoHeader":"X-Mssdk-Info"},"4":{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""},"7":{},"17":{"boe":false,"aid":511700,"dfp":false,"sdi":false,"enablePathList":[],"_enablePathListRegex":[{},{},{},{}],"urlRewriteRules":[],"_urlRewriteRules":[],"initialized":true,"enableTrack":true,"track":{"unitTime":300,"unitAmount":2,"fre":300},"triggerUnload":false,"region":"sg","regionConf":{"host":"https://mssdk-i18n-sg.coze.com","pathList":["/web/report"],"reportUrl":"https://mssdk-i18n-sg.coze.com/web/report"},"umode":513,"v":false,"_enableSignature":[],"perf":false,"xxbg":true},"20":{},"21":{"0":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"2":"forreal"},"22":{"url":"/api/intelligence_api/ping?msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/","body":{}},"24":"forreal","p":null}
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  49 _0x92922d ==  1029 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,288,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+-1370458159 = 288 ^ 35393455027953
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  1030 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  159 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  162 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",515292222,null,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+28 = 指令数组[pos = 162]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  43 _0x92922d ==  164 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",515292222,28,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
+
+>>>
+-536870912 = 515292222 << 28
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  165 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-536870912,28,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],515292222,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  168 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-536870912,-1370458159,-1370458159,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  45 _0x92922d ==  170 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-536870912,-1370458159,4,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159]
+
+>>>
+182781821 = -1370458159 >>> 4
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  47 _0x92922d ==  171 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-536870912,182781821,4,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159]
+
+>>>
+-354089091 = -536870912 ^ 182781821
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  172 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-354089091,182781821,4,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  175 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-354089091,182781821,4,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159,-354089091]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  20 _0x92922d ==  178 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-1370458159,182781821,4,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1370458159],-1370458159,-354089091]
@@ -2260,11 +2925,30 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-354089091,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-354089091,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-354089091,35393455027953,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
+
+>>>
+24 = 指令数组[pos = 85] << 24 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-354089091,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
+
+>>>
+-22 = -354089091 >> 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-22,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,-22,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-22,null,-22,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],-22]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",-22,63,-22,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],-22]
+
+>>>
+42 = -22 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",42,63,-22,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],-22]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",42,[[-22],-22],1,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],-22]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",42,[[-22],42],1,24,4,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
@@ -2281,13 +2965,24 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  39 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  41 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,42,42,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  42 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,42,true,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,42,true,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
+
+>>>
+71 = 指令数组[pos = 45], 71 << 24 >> 24 = 71
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,42,71,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,42,71,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
+
+>>>
+113 = 42 + 71
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P",null,null,113,71,52,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-22],42]
 
 
 ======================================= loop 5 q5Qd9 ==========================
-
+>>>
+"q" = String.fromCharCode(113)
 
 
 
@@ -2321,21 +3016,55 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  53 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  55 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,57,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  56 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,true,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  59 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,true,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
+
+>>>
+4 = 指令数组[pos = 59]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  61 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
+
+>>>
+4 = -4
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  62 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
+
+>>>
+53 = 57 + -4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q",null,null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-1351],57]
+
+>>>
+"5" = String.fromCharCode(53)
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q","5",null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  102 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q","5",null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  103 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5","5",null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  104 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  107 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,53,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  110 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,-354089091,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
+
+>>>
+12 = 指令数组[110]
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  112 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,-354089091,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
+
+>>>
+-86448 = -354089091 >> 12
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  113 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,-86448,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],-354089091,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,-86448,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",-86448,null,-86448,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],-86448]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",-86448,63,-86448,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],-86448]
+
+>>>
+16 = -86448 & 63
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",16,63,-86448,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],-86448]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",16,[[-86448],-86448],1,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],-86448]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",16,[[-86448],16],1,12,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
@@ -2348,9 +3077,22 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,16,16,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,16,true,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,16,true,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,16,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,16,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
+
+>>>
+81 = 16 + 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5",null,null,81,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-86448],16]
+
+>>>
+"Q" = String.fromCharCode(81)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5","Q",null,81,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  115 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5","Q",null,81,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  116 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q","Q",null,81,65,26,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2381,6 +3123,9 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  45 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  47 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q",null,null,29,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-5532643],29]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q",null,null,29,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-5532643],29]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q",null,null,100,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-5532643],29]
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q","d",null,100,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  128 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Q","d",null,100,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  129 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd","d",null,100,71,52,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2413,7 +3158,15 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  59 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  29 _0x92922d ==  61 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd",null,null,61,4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],61]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  62 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd",null,null,61,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],61]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd",null,null,61,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],61]
+
+57 = 61 + -4
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd",null,null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[-354089091],61]
+
+>>>
+"9" = String.fromCharCode(57)
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  71 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd","9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  138 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd","9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  139 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd9","9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
@@ -2421,6 +3174,11 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  66 _0x92922d ==  190 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  1032 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8P","q5Qd9","9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  1033 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9","q5Qd9","9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1034 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,"9",null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  undefined
+
+>>>
+
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1037 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,null,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],-1370458159,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  1040 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[],-1370458159,null,null,null,null,null,35393455027953,51682,1736858931,"10101110010100000111011011110001","10101110010100000111011011110001",null,null,3680146767,{"directSign":false,"consistent":false,"location":false,"switch":false,"dom":false,"debugger":false,"node":false,"phantom":false,"webdriver":false,"incognito":false,"hook":false,"test":true},"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",null,{"msToken":"MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy","X-Bogus":"DFSzswVYpHVdUvB4tpQ2UZSjtbp/"},1,2729189100,""]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  72 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
@@ -2429,11 +3187,28 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  2 _0x92922d ==  78 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  79 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[51682],51682,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  82 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[51682],51682,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  85 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,57,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[51682],51682,null]
+
+>>>
+24 = 指令数组[pos = 85], 24 << 24 >> 24 = 24
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  44 _0x92922d ==  87 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,51682,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[51682],51682,null]
+
+>>>
+0 = 51682 & 24
+
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  88 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[51682],51682,null]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  "[object Window]"
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  4 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",0,null,0,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
+
+>>>
+63 = 指令数组[pos = 4], 63 << 24 >> 24 = 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  46 _0x92922d ==  6 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",0,63,0,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
+
+>>>
+0 = 0 & 63
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  23 _0x92922d ==  7 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",0,63,0,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  53 _0x92922d ==  10 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",0,[[0],0],1,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  73 _0x92922d ==  11 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",0,[[0],0],1,24,-4,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
@@ -2446,14 +3221,23 @@ webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  25 _0x4d9ccd:  ["
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  39 _0x92922d ==  27 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,0,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  71 _0x92922d ==  28 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,true,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  3 _0x92922d ==  31 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,true,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
+
+>>>
+65 = 指令数组[pos = 31], 65 << 24 >> 24 = 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  69 _0x92922d ==  33 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,65,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  24 _0x92922d ==  68 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,0,65,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
+
+>>>
+65 = 0 + 65
+
 webmssdk_1.0.0.56.es5.js:82 Log1 _0x46af45 ==  67 _0x92922d ==  69 _0x4d9ccd:  ["rlB28QAAIDAM.GgdHra8Pq5Qd9",null,null,65,65,26,62,"X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid=",""] _0x2e4dbc:  [[0],0]
 
 
 
 ======================================= loop 6 AAMni ==========================
-
+>>>
+"A" = String.fromCharCode(65)
 
 
 

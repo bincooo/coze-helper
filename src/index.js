@@ -168,4 +168,4 @@ function test() {
 
 const alg = require('./alg')
 // console.log(alg.genBogus())
-console.log(alg.genSignature())
+console.log(alg.genSignature("X-Bogus=DFSzswVYpHVdUvB4tpQ2UZSjtbp/&msToken=MJnVjNdXAPG-SVFjZEYt2oag31xZcMm14HBXvwU256KE2Ikrmj30qJTRqTlR_m-W-U0mM5jnM6YVmo0P_8cmQZI-ABMNbO_LhgkGXIh23n8Pvl4jwngrN4piNYMZvsSy&pathname=/api/intelligence_api/ping&tt_webid=&uuid="))
