@@ -131,7 +131,7 @@ function main() {
 
 
 function test() {
-    let msToken = '4_HTLO9MM4Tb_rET6BRVfjySlocGly2Hf6holD167CeoZJKybz1Np-rObTn1IBmfnwsGJrdp4zZSnxJQeiWrc5jdSdTQKc1y9DiqwiQhUpRkHwPxvqWxuhRGB5zHBjo='
+    let msToken = 'PWbBDDWPMjOEKP-_fpTGVTdknwPFZUsfMwzd3bhV_3-A87oHblcjDeonot27gkvjVdipokKWBVrVB_qnK9e_JDUvlV_hhiQJHZCxl6YlvaPgRAugN8VIuR9z5waEguE2'
     let body = {
         // "bot_id": "7447187140963778566",
         // "chat_history": [],
@@ -149,26 +149,27 @@ function test() {
     }
 
     hook.init(false)
-    
+    hook.debug(true)
+
     const bogus = hook.doBogus('msToken=' + msToken, JSON.stringify(body))
     hook.doBogus('msToken=' + msToken, JSON.stringify(body))
-    hook.debug(true)
-    const signature = hook.doSignature({
-        url: "api.coze.com/open_api/v1/web_chat?msToken=" + msToken + "&X-Bogus=" + bogus,
-        body
-    }, undefined, 'forreal')
+    
+    // const signature = hook.doSignature({
+    //     url: "/api/intelligence_api/search/get_draft_intelligence_list?msToken=" + msToken + "&X-Bogus=" + bogus,
+    //     body
+    // }, undefined, 'forreal')
     console.log('bogus: ', bogus)
-    console.log('signature: ', signature)
+    // console.log('signature: ', signature)
     hook.debug(false)
 }
 
-// test()
+test()
 // main()
 
 
-const alg = require('./alg')
-const msToken = "ACVOyPCjhmZKm1IkOB9aHXySvnuQtDKZwvOENf44_0i8rt-10b8BeEzmXkPFPz8rmJECFhW53batenjleVGYibU5lGv5IPoGUR7gu78AC4DAYlbPKSJAZaPuI-AkONQw"
-const body = {} //{"user_ids":["7388589208489329681"]}
-const bogus = alg.genBogus(msToken, body)
-console.log(bogus)
-console.log(alg.genSignature(msToken, bogus, '/api/playground_api/mget_user_info', body))
+// const alg = require('./alg')
+// const msToken = "ACVOyPCjhmZKm1IkOB9aHXySvnuQtDKZwvOENf44_0i8rt-10b8BeEzmXkPFPz8rmJECFhW53batenjleVGYibU5lGv5IPoGUR7gu78AC4DAYlbPKSJAZaPuI-AkONQw"
+// const body = {"space_id":"7388825719436673032","name":"","status":[1,3,4],"types":[1,2],"search_scope":0,"order_by":0,"size":24}
+// const bogus = alg.genBogus(msToken, body)
+// console.log(bogus)
+// console.log(alg.genSignature(msToken, bogus, '/api/intelligence_api/search/get_draft_intelligence_list', body))

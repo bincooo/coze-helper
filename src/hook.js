@@ -1,24 +1,48 @@
-// var my_stringify = JSON.stringify;
-// JSON.stringify = function (params) {
-//     if (params.payload.length>300){
-//         window.__aa = params
-//         params["signVersion"] = '1'
-//     }
-//     debugger
-//     console.log("json_stringify params:",params);
-//     return my_stringify(params);
-// };
-//
-// var my_parse = JSON.parse;
-// JSON.parse = function (params) {
-//     debugger
-//     console.log("json_parse params:",params);
-//     return my_parse(params);
-// };
+const fs = require('node:fs')
+Log = (...args) => {
+    let content = '';
+    for (let k in args) {
+        let v = args[k];
+        if (typeof v == 'object') {
+            v = JSON.stringify(v, (_, obj) => {
+                if (obj == window) {
+                    obj = '[object Window]'
+                }
+                else if (obj == location) {
+                    obj = '[object Location]'
+                }
+                else if (obj == document) {
+                    obj = '[object Document]'
+                }
+                return obj
+            })
+        }
+        content += `${v} `
+    }
+    if (content != '') {
+        fs.writeFile('log.txt', content + '\n', { flag: 'a+' }, err => {
+            err && console.error(err)
+        })
+    }
+}
 
+Date.prototype.getTime = function() {
+    return 1736619812859;
+}
 
+__getOwnPropertyNames = Object.getOwnPropertyNames
+Object.getOwnPropertyNames = function(obj) {
+    if (obj == navigator) {
+        return [];
+    }
+    // console.log('getOwnPropertyNames: ', obj)
+    return __getOwnPropertyNames.apply(Object, arguments)
+}
+
+// ======================
+const userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0';
 canvas = {
-    getContext:function (res) {
+    getContext: function (res) {
         console.log("canvas.getContext:",arguments)
         if (res == "webgl"){
             return {
@@ -39,6 +63,13 @@ canvas = {
                 }
             }
         }
+    },
+    toDataURL: function() {
+        console.log("canvas.toDataURL:", arguments)
+        return "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAAXNSR0IArs4c6QAAA8NJREFUSEvNllmoVlUYhp9jA2VUNphhUkQD0URBZKSQTRReZBJWNCiNF5GQEVgXNpgGokk5JeQQJaEGUTSPllaWpWWDgg1aR6TBIhMTO6WuB94du91/ON0c8wPx/P9e/1rf+73D2m20rhOAr4A/87gnsBXY0cn67v76IGAzsC8wCrgPOAz4qa1x8gHAH8DVwOHAXOBK4DvgXODOrB8OLAA2dkPnA4HJaXgDsA24oTQ/oXb+b8CpwLomgGuAM4EjgdeAaWXq9wA9gLOBd4H9gCOA8cCqbgDgljLuIFXAccAaYBywHjgwYI5ysHUA/UpDl6c5F30dIEcDv5cN9sxGfYD9gUtrzXuga6r/fbQXsDewpROQSsDpbupiCI8ABwNLo4TvgZeBkwoz7U0GbLy90PN0Nu0LSNfzwHlh4CxgIfBS1pxe5PU2sDa0DgO+zW9sUqDP1pq8GRgDODDrTeCKTuToWa8CelI5VWVPJ8pIE4CT1byTslKUvwCflgZHAB8XWR0KrAR+AOYBD5eGryvTfgDolb8123zgpshwZPabGpaHAssKyDOA2cCP8VidDHt5v4TH6MhJFtxXCbuPMt7QBNAbeCE+0LR3A28Bn5fmHspUt5fv/Te40HpREkG5nAPcBjyZpm4MUH1zSzoT5K2RoGb12V0B7x711HumNPlokcpTkfIA4Jtyxq/Ah8AxrVJIySgPZTAoKF9JhC5KOiiZz9Kc9Pp5FvAOoF9k7ZR4QqbqAIxDGb2jgHgwoEwYf79PPKGPZFZmHGZVAuyfc74ATgM66gz4w4lp1qb+At6LrpWOmrVBJ+AkTk4zavixcuixJX6/LOa/Ng14cBNAteZC4PUWADT9FEDjKrGqLouU9Kh+87k9UQdgXDl5tX58zPVR0eHFhcI5JQGuD5gVwHOlOXXsvaHU1sXkb4SBKl7rAJSYkjQMOgNgKjXrEmB67iPZvCC+k+l/ABC9l4Um9j7oSGOfJA41msyYvz8nabwjqiHYmABMh9Xpog5A2mdmwupZdq2mhJoAZuRS08xVmZTK6V8mfhz4INN2iofERDaudIaUCS6ON/aIhEwgS8/okyYA15tCgr0XWBIWKsN2BcBh+upwfgYqA/pHD+xoptATOcAEUc9OUt36HiQzV0WDAvN1QlMK7L+WGu7q4mq1l682Sljf6R1fNZY3JeRnGXgxzZkwTtVkMnvvL5fa7Ukpo8/3IIE60V1VvtIY4X9Xk4HqgfIwharyEjH+xiZllI33w/9erQBUWjZZbNLXAhPE7/1s6uw2tRN/auoRceiY2wAAAABJRU5ErkJggg==";
+    },
+    toString: function() {
+        return '[object HTMLCanvasElement]';
     }
 }
 div = {
@@ -66,6 +97,9 @@ div = {
         console.log("div.appendChild: ",res)
         return res
     },
+    toString: function() {
+        return '[object HTMLDivElement]';
+    }
 }
 Plugin = {
     0:{type: 'application/pdf', suffixes: 'pdf', description: 'Portable Document Format'},
@@ -75,203 +109,31 @@ Plugin = {
     description:"Portable Document Format",
     filename:"internal-pdf-viewer",
     length:2,
-    name:"PDF Viewer"
+    name:"PDF Viewer",
 }
 Plugin['0']["enabledPlugin"]=Plugin
 Plugin['1']["enabledPlugin"]=Plugin
 Plugin['application']["enabledPlugin"]=Plugin
 Plugin['text']["enabledPlugin"]=Plugin
-location = {
-    hash: "",
-    host: "www.xiaohongshu.com",
-    hostname: "www.xiaohongshu.com",
-    href: "https://www.coze.com/",
-    origin: "https://www.coze.com",
-    pathname: "/",
-    port: "",
-    protocol: "https:",
-    toString: function() {
-        return location.href
-    }
+
+Plugin = {
+    0: Plugin,
+    __name__: 'Plugin',
 }
-navigator = {
-    appVersion:"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    platform:'Win32',
-    appCodeName:'Mozilla',
-    appName:'Netscape',
-    language:'zh-CN',
-    product:'Gecko',
-    vendorSub:'',
-    vendor:'Google Inc.',
-    userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    onLine:true,
-    cookieEnabled:true,
-    hardwareConcurrency:16,
-    maxTouchPoints:0,
-    productSub:'20030107',
-    deviceMemory:8,
-    pdfViewerEnabled:true,
-    languages:["zh-CN"],
-    webdriver:false,
-    doNotTrack:null,
-    bluetooth:{},
-    clipboard:{},
-    credentials:{},
-    webkitTemporaryStorage:{},
-    webkitPersistentStorage:{},
-    storage:{},
-    wakeLock:{},
-    ink:{},
-    mediaCapabilities:{},
-    scheduling:{},
-    geolocation:{},
-    locks:{},
-    plugins: {
-    }, // --------------------------------------------------------------------------------------------------------------------
-    mimeTypes:{
-        0:{
-            description: "Portable Document Format",
-            enabledPlugin:Plugin,
-            suffixes:"pdf",
-            type:"application/pdf"
-        },
-        1:{
-            description: "Portable Document Format",
-            enabledPlugin: Plugin,
-            suffixes:"pdf",
-            type:"text/pdf"
-        },
-        application: {type: 'application/pdf', suffixes: 'pdf', description: 'Portable Document Format', enabledPlugin: Plugin},
-        text: {type: 'text/pdf', suffixes: 'pdf', description: 'Portable Document Format', enabledPlugin: Plugin},
-        length:2
-    },
-    connection:{
-        downlink: 0.9,
-        effectiveType: "3g",
-        onchange: null,
-        rtt: 350,
-        saveData: false
-    },
-    userActivation:{
-        hasBeenActive: false,
-        isActive: false
-    },
-    userAgentData:{
-        mobile:false,
-        platform:"Windows",
-        brands: [
-            {
-                brand: "Chromium",
-                version: "122"
-            },
-            {
-                brand: "Not(A:Brand",
-                version: "24"
-            },
-            {
-                brand: "Google Chrome",
-                version: "122"
-            }
-        ]
-    },
-    xr:{
-        ondevicechange:null
-    },
-    windowControlsOverlay:{
-        ongeometrychange: null,
-        visible: false
-    },
-    usb:{
-        onconnect: null,
-        ondisconnect: null
-    },
-    gpu:{
-        wgslLanguageFeatures:{size:0}
-    },
-    serial:{
-        onconnect: null,
-        ondisconnect: null
-    },
-    presentation:{
-        defaultRequest: null,
-        receiver: null
-    },
-    mediaSession:{
-        metadata: null,
-        playbackState: "none"
-    },
-    hid:{
-        onconnect: null,
-        ondisconnect: null
-    },
-    virtualKeyboard:{
-        boundingRect: {
-            bottom: 0,
-            height: 0,
-            left: 0,
-            right: 0,
-            top: 0,
-            width: 0,
-            x: 0,
-            y: 0
-        },
-        ongeometrychange:null,
-        overlaysContent:false
-    },
-    managed:{onmanagedconfigurationchange:null},
-    serviceWorker:{
-        controller: null,
-        oncontrollerchange: null,
-        onmessage: null,
-        onmessageerror: null
-    },
-    mediaDevices:{ondevicechange:null},
-    keyboard:{},
-    permissions:{},
-    sendBeacon:function (res) {
-        console.log('navigator.sendBeacon:',res)
-    },
-    unregisterProtocolHandler:function (res) {
-        console.log('navigator.unregisterProtocolHandler:',res)
-    },
-    registerProtocolHandler:function (res) {
-        console.log('navigator.registerProtocolHandler:',res)
-    },
-    getInstalledRelatedApps:function (res) {
-        console.log('navigator.getInstalledRelatedApps:',res)
-    },
-    webkitGetUserMedia:function (res) {
-        console.log('navigator.webkitGetUserMedia:',res)
-    },
-    setAppBadge:function (res) {
-        console.log('navigator.setAppBadge:',res)
-    },
-    requestMIDIAccess:function (res) {
-        console.log('navigator.requestMIDIAccess:',res)
-    },
-    getUserMedia:function (res) {
-        console.log('navigator.getUserMedia:',res)
-    },
-    getBattery:function (res) {
-        console.log('navigator.getBattery:',res)
-    },
-    javaEnabled:function (res) {
-        console.log('navigator.javaEnabled:',res)
-    },
-    getGamepads:function (res) {
-        console.log('navigator.getGamepads:',res)
-    },
-    vibrate:function (res) {
-        console.log('navigator.vibrate:',res)
-    },
-    requestMediaKeySystemAccess:function (res) {
-        console.log('navigator.requestMediaKeySystemAccess:',res)
-    },
-    clearAppBadge:function (res) {
-        console.log('navigator.clearAppBadge:',res)
-    },
+
+global.toString = function() {
+    return '[object Window]'
 }
-window = global;
+
+window = globalThis
+// window.safari = {
+//     pushNotification: {
+//         toString: function() {
+//             return "[object SafariRemoteNotification]";
+//         }
+//     }
+// }
+window.sessionStorage = {}
 window.CanvasRenderingContext2D = function (res) {
     console.log("window.CanvasRenderingContext2D:",res)
 }
@@ -289,19 +151,33 @@ window.Image = function (res) {
 window.Window = function (res) {
     console.log("window.Window : ", res)
 }
-window.localStorage = {
-    MF_STATISTICS:"{\"timestamp\":"+Date.now()+",\"visitTimes\":0,\"readFeedCount\":1}",
-    XHS_STRATEGY_BOX: "{\"firstVisit-\":false}",
-    'xhs-pc-theme':"system",
-    getItem:function (res) {
-        console.log("window.localStorage.getItem",res)
-        return '{"url":"https://fe-video-qc.xhscdn.com/fe-platform/7a700537086390bf42ed95a3c3b675820f791299.js","reportUrl":"/api/sec/v1/shield/webprofile","desVersion":"2","validate":true,"commonPatch":["/fe_api/burdock/v2/note/post","/api/sns/web/v1/comment/post","/api/sns/web/v1/note/like","/api/sns/web/v1/note/collect","/api/sns/web/v1/user/follow","/api/sns/web/v1/feed","/api/sns/web/v1/login/activate","/api/sns/web/v1/note/metrics_report","/api/redcaptcha","/api/store/jpd/main","/phoenix/api/strategy/getAppStrategy"],"signUrl":"https://fe-video-qc.xhscdn.com/fe-platform/6e0d0a976c31ec4cf07d8dfaea68aefe79a8c678.js","signVersion":"1"}'
-    },
-    length: 3
+window.HTMLElement = function() {
+    console.log("window.HTMLElement")
 }
-// document 补环境
+window.Audio = function() {
+    console.log("window.Audio")
+}
+window.open = function() {
+    console.log("window.open: ", arguments)
+}
+window.fetch = function() {
+    console.log("window.fetch: ", arguments)
+}
+window.toString = () => {
+    return '[object Window]' }
+Object.defineProperties(window, {
+    [Symbol.toStringTag]: {
+        value: "Window",
+        configurable: true
+    },
+    toString: () => {
+        return '[object Window]'
+    }
+});
+cookie = "ttwid=1%7CZMQxp1EFgx4fuKu--p-15nkXczXljduJSLy1ZO2jk6Y%7C1736920611%7Cf07a804c4bd85e470728fcf30d1a1ad350fb2c8fa597a7313dbd45e89facfd99; store-idc=maliva; sessionid_ss=5a9aa493d052986dd08ca64299125099; sessionid=5a9aa493d052986dd08ca64299125099; store-country-code-src=uid; uid_tt=3be5481e5343a2668290910c62f79cdabbe47e4e3501daea8fbd75ae2368a93c; i18next=en; odin_tt=32aef92ad466e336ef26f6fe2513d86da7071cfdc1ba9d4f533bb98f4e45d2f1e661f34305151736804b641dcf80ba8c47ea34045a5c41cd50fcf01abbf4753d; passport_csrf_token=1bde4ec8a179c656122892c75fafacc4; passport_csrf_token_default=1bde4ec8a179c656122892c75fafacc4; s_v_web_id=verify_m5xhoqf7_HQlKktUI_u07T_4LRE_9CYl_vIJOY6ZrLhAB; sid_guard=5a9aa493d052986dd08ca64299125099%7C1733288798%7C5184000%7CSun%2C+02-Feb-2025+05%3A06%3A38+GMT; sid_tt=5a9aa493d052986dd08ca64299125099; sid_ucp_v1=1.0.0-KDc2Y2M1OGE0NzQ4NWExMGYzNzgzMjA2YWY5NjZlNjYzYzhmOGNhNWUKIAiRiKra0dfixGYQ3sa_ugYY1J0fIAww-pWmtAY4CEASEAMaBm1hbGl2YSIgNWE5YWE0OTNkMDUyOTg2ZGQwOGNhNjQyOTkxMjUwOTk; ssid_ucp_v1=1.0.0-KDc2Y2M1OGE0NzQ4NWExMGYzNzgzMjA2YWY5NjZlNjYzYzhmOGNhNWUKIAiRiKra0dfixGYQ3sa_ugYY1J0fIAww-pWmtAY4CEASEAMaBm1hbGl2YSIgNWE5YWE0OTNkMDUyOTg2ZGQwOGNhNjQyOTkxMjUwOTk; store-country-code=jp; uid_tt_ss=3be5481e5343a2668290910c62f79cdabbe47e4e3501daea8fbd75ae2368a93c; msToken=hragVqPGcp_l6krhht6KADhVLj-gbunMzZQaGrpouct_3F_0tNdNIujCvXv8aqqhKy_OIlmdquyPNq31ftsqvKE1jpz8ACjalkW1gSXA4wt52M9Lw3fpZyD28iZ9yvha; msToken=hragVqPGcp_l6krhht6KADhVLj-gbunMzZQaGrpouct_3F_0tNdNIujCvXv8aqqhKy_OIlmdquyPNq31ftsqvKE1jpz8ACjalkW1gSXA4wt52M9Lw3fpZyD28iZ9yvha"
 document = {
-    cookie: 'i18next=en; s_v_web_id=verify_m5po092n_4L7rywvH_aeWA_4MSh_9bmo_l61hxmli9Put; msToken=DHk9uCy1XBxtJsiQeBIPJGDyvygc67vlnnu2Uo1JSOuTdhg391jQB1BQUd8MX6aNVOL4wV8lNRSuocK-Rdj5CrWfQ_QfgNvx-VxSl9BGivfX52RnAzRaMzim4rNRPRo=; msToken=BOrYzwLqb4X6rHDDldO78aS4nCrFGaNWkM81RvTrjjUHPvXKLM4pEWRFvJ0Wfsf4yei9Cw9w8nhucQ5smIVg9HAE8PxDkmQtM4QcnPG2HVUU4CX9N3b0kg==',
+    referrer: '',
+    cookie: cookie,
     createElement:function (res) {
         console.log("document.createElement:",arguments)
         if (res == "canvas"){
@@ -320,98 +196,126 @@ document = {
     toString: function() {
         return "[object HTMLDocument]"
     }
-};
+}
 
-// ======================
+const url = 'https://www.coze.com/space/7388825719436673032/develop';
+location = {
+    host: "www.coze.com",
+    href: url,
+    origin: "https://www.coze.com",
+    hostname: "www.coze.com",
+    protocol: "https:",
+    pathname: "/space/7388825719436673032/develop",
+    port: "",
+    hash: "",
+    toString: function() {
+        return url
+    }
+}
 
-// window = globalThis
-// window.sessionStorage = {}
-// window.toString = () => { return '[object Window]' }
-// cookie = "i18next=en; s_v_web_id=verify_m5po092n_4L7rywvH_aeWA_4MSh_9bmo_l61hxmli9Put; msToken=DHk9uCy1XBxtJsiQeBIPJGDyvygc67vlnnu2Uo1JSOuTdhg391jQB1BQUd8MX6aNVOL4wV8lNRSuocK-Rdj5CrWfQ_QfgNvx-VxSl9BGivfX52RnAzRaMzim4rNRPRo=; msToken=BOrYzwLqb4X6rHDDldO78aS4nCrFGaNWkM81RvTrjjUHPvXKLM4pEWRFvJ0Wfsf4yei9Cw9w8nhucQ5smIVg9HAE8PxDkmQtM4QcnPG2HVUU4CX9N3b0kg=="
-// document = {
-//     referrer: '',
-//     cookie: cookie,
-//     toString: () => { return '[object HTMLDocument]' }
-// }
-// location = {
-//     href: 'https://www.coze.com/',
-//     protocol: 'https:',
-//     toString() {
-//         return location.href
-//     }
-// }
-// // delete process
+history = {
+    scrollRestoration: "auto",
+    state: {
+        idx: 2,
+        key: "vjlfxro2",
+        title: "Coze",
+        url: url,
+        usr: null,
+    },
+    toString: function() {
+        return '[object History]' }
+}
 
+screen = {
+    availHeight: 1796,
+    availLeft: 0,
+    availTop: 25,
+    availWidth: 3360,
+    colorDepth: 24,
+    width: 3360,
+    height: 1890,
+    isExtended: false,
+    pixelDepth: 24,
+}
 
-// // // 防反hook的检测
-// // unsafeEval = window.eval;
-// // window.eval = function(str) { debugger; unsafeEval(str); }
-// // window.eval.toString = function() { return unsafeEval.toString(); }
+// // 防反hook的检测
+// unsafeEval = window.eval;
+// window.eval = function(str) { debugger; unsafeEval(str); }
+// window.eval.toString = function() { return unsafeEval.toString(); }
 
-// // // 防原型链检测
-// // String.prototype.split_bk = String.prototype.split;
-// // String.prototype.split = function(val) { return this.toString().spilt_bk(val) }
-// // //伪装原型链
-// // String.prototype.split.toString = function() { return 'function split() { [native code] }' }
+// // 防原型链检测
+// String.prototype.split_bk = String.prototype.split;
+// String.prototype.split = function(val) { return this.toString().spilt_bk(val) }
+// //伪装原型链
+// String.prototype.split.toString = function() { return 'function split() { [native code] }' }
 
-// // 伪造Storage
-// function storageMock(data = {}) {
-//     let storage = {...data};
-//     return {
-//         setItem: function(key, value) {
-//             config.state.debug && console.log(key, value)
-//             storage[key] = value || '';
-//         },
-//         getItem: function(key) {
-//             config.state.debug && console.log(key, key in storage ? storage[key] : null)
-//             return key in storage ? storage[key] : null;
-//         },
-//         removeItem: function(key) {
-//             config.state.debug && console.log(key)
-//             delete storage[key];
-//         },
-//         get length() {
-//             return Object.keys(storage).length;
-//         },
-//         key: function(i) {
-//             const keys = Object.keys(storage);
-//             return keys[i] || null;
-//         }
-//     };
-// }
-// window.localStorage = storageMock(require('./local.json'));
-// window.sessionStorage = storageMock(require('./global.json'));
+// 伪造Storage
+function storageMock(data = {}) {
+    let storage = {...data};
+    return {
+        setItem: function(key, value) {
+            console.log('setItem: ', key, value)
+            config.state.debug && console.log(key, value)
+            storage[key] = value || '';
+        },
+        getItem: function(key) {
+            console.log('getItem: ', key)
+            config.state.debug && console.log(key, key in storage ? storage[key] : null)
+            return key in storage ? storage[key] : null;
+        },
+        removeItem: function(key) {
+            console.log('removeItem: ', key)
+            config.state.debug && console.log(key)
+            delete storage[key];
+        },
+        get length() {
+            return Object.keys(storage).length;
+        },
+        key: function(i) {
+            const keys = Object.keys(storage);
+            return keys[i] || null;
+        }
+    };
+}
+window.localStorage = storageMock({}); //(require('./local.json'));
+window.sessionStorage = storageMock({});//(require('./global.json'));
 
-// // 伪造原型
-// Navigator = function Navigator() { throw new TypeError("Illegal constructor") };
-// Object.defineProperties(Navigator.prototype, {
-//     [Symbol.toStringTag]: {
-// 		value: "Navigator",
-// 	    configurable: true
-// 	}
-// });
-// var navigator = {};
-// navigator.__proto__ = Navigator.prototype;
-// Navigator.prototype.plugins = [];
-// Navigator.prototype.language = 'en-US'
-// Navigator.prototype.languages = ['en-US', 'en'];
-// Navigator.prototype.userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36';
-// Navigator.prototype.platform = 'Win32';
-// Navigator.prototype.maxTouchPoints = 0;
-// Navigator.prototype.onLine = true;
-// for (var _prototype in Navigator.prototype) {
-//     navigator[_prototype] = Navigator.prototype[_prototype];
-//     if (typeof (Navigator.prototype[_prototype]) != "function") {
-//         Navigator.prototype.__defineGetter__(_prototype, function () {
-//             var e = new Error();
-//             e.name = "TypeError";
-//             e.message = "Illegal constructor";
-//             e.stack = "VM988:1 Uncaught TypeError: Illegal invocation \r\n at <anonymous>:1:21";
-//             throw e;
-//         });
-//     }
-// }
-// // =====
+// 伪造原型
+Navigator = function Navigator() { throw new TypeError("Illegal constructor") };
+Object.defineProperties(Navigator.prototype, {
+    [Symbol.toStringTag]: {
+		value: "Navigator",
+	    configurable: true
+	}
+});
+navigator = {};
+navigator.__proto__ = Navigator.prototype;
+Navigator.prototype.plugins = [];//Plugin;
+Navigator.prototype.language = 'en-US'
+Navigator.prototype.languages = ['en-US', 'en'];
+Navigator.prototype.userAgent = userAgent;
+Navigator.prototype.platform = 'MacIntel';
+Navigator.prototype.maxTouchPoints = 0;
+Navigator.prototype.onLine = true;
+Navigator.prototype.webdriver = false;
+for (var _prototype in Navigator.prototype) {
+    navigator[_prototype] = Navigator.prototype[_prototype];
+    if (typeof (Navigator.prototype[_prototype]) != "function") {
+        Navigator.prototype.__defineGetter__(_prototype, function () {
+            var e = new Error();
+            e.name = "TypeError";
+            e.message = "Illegal constructor";
+            e.stack = "VM988:1 Uncaught TypeError: Illegal invocation \r\n at <anonymous>:1:21";
+            throw e;
+        });
+    }
+}
+
+window.Navigator = Navigator
+window.navigator = navigator
+window.location = location
+window.document = document
+// =====
 
 XMLHttpRequest = function XMLHttpRequest() { throw new TypeError("Illegal constructor") };
 Object.defineProperties(XMLHttpRequest.prototype, {
@@ -420,6 +324,32 @@ Object.defineProperties(XMLHttpRequest.prototype, {
 	    configurable: true
 	}
 });
+window.XMLHttpRequest = XMLHttpRequest;
+
+// 伪造原型
+Image = function Image() { return {} };
+Object.defineProperties(Image.prototype, {
+    [Symbol.toStringTag]: {
+		value: "Image",
+	    configurable: true
+	}
+});
+window.Image = Image;
+
+// 伪造原型
+// PluginArray = function PluginArray() { throw new TypeError("Illegal constructor") };
+// Object.defineProperties(PluginArray.prototype, {
+//     item: function() {},
+//     namedItem: function() {},
+//     refresh: function() {},
+//     toString: function() {
+//         return 'function PluginArray() { [native code] }';
+//     },
+//     [Symbol.hasInstance]: function() {
+//         return '[Symbol.hasInstance]() { [native code] }';
+//     }
+// });
+window.PluginArray = Plugin;
 
 // // 这段代码可以用来检查属性被赋值的debug
 // // obj = new Proxy(obj, {
@@ -432,8 +362,13 @@ Object.defineProperties(XMLHttpRequest.prototype, {
 // // })
 
 function fix(target, property, value, echo) {
-    if (echo && (property == 'sessionStorage' || property == 'localStorage')) {
-        return '{ ... }'
+    if (echo && (
+        property == 'sessionStorage' ||
+        property == 'localStorage' ||
+        property == 'console' ||
+        property == 'location'
+    )) {
+        return `{ ... }`
     }
 
     let map = {
@@ -477,9 +412,9 @@ function getEnvs(proxyObjs) {
                 let value = Reflect.get(target, property, receiver);
                 config.state.debug && console.log("方法:", "get  ", "对象:", "${proxyObjs[i]}", "  属性:", property, ", 属性值:", fix(target, property, value, true), ", 属性值类型:", typeof value);
                 value = fix(target, property, value);
-                // if (typeof value == 'object') {
-                //     return newProxy(value, property);
-                // }
+                if (typeof value == 'object') {
+                    return newProxy(value, property);
+                }
                 return value;
             },
             set: function(target, property, value, receiver) {
@@ -497,9 +432,8 @@ function getEnvs(proxyObjs) {
     }
 }
 
-proxyObjs = ['window', 'document', 'location', 'navigator', 'history', 'screen']
+proxyObjs = ['window', 'document', 'location', 'navigator', 'history', 'screen', 'canvas', 'PluginArray']
 getEnvs(proxyObjs);
-
 
 config = {
     state: {
@@ -513,7 +447,14 @@ config = {
             window.setTimeout = () => {}
             window.setInterval = () => {}
         }
-        bbb()
+
+        // delete process
+        // delete globalThis
+        // delete global
+        // delete Buffer
+        delete __dirname
+        delete __filename
+
         // ======
         require('./webmssdk_1.0.0.56.es5');
         config.doBogus = window['_0x2ae157'];

@@ -88,6 +88,10 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  105 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  108 _0x4d9ccd:  [null,null]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  1 _0x4d9ccd:  []
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  4 _0x4d9ccd:  [{}]
+
+>>>>
+"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" = ???
+
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  74 _0x92922d ==  7 _0x4d9ccd:  ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  8 _0x4d9ccd:  ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  11 _0x4d9ccd:  ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",null]
@@ -190,6 +194,9 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  71 _0x92922d ==  251 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  2 _0x92922d ==  260 _0x4d9ccd:  [false,"undefined","jsdom"]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  261 _0x4d9ccd:  [null,"undefined","jsdom"]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  264 _0x4d9ccd:  [null,null,"jsdom"]
+
+
+
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  267 _0x4d9ccd:  [null,null,{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""}]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  269 _0x4d9ccd:  ["object",null,{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""}]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  37 _0x92922d ==  272 _0x4d9ccd:  ["object","undefined",{"ancestorOrigins":{},"href":"https://www.coze.com/","origin":"https://www.coze.com","protocol":"https:","host":"www.coze.com","hostname":"www.coze.com","port":"","pathname":"/","search":"","hash":""}]
@@ -6026,8 +6033,8 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  74 _0x92922d ==  234 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  235 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",56,6]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  238 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,56,6]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  241 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,2436648,6]
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  46 _0x92922d ==  243 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,2436648,63]
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  244 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,40,63]
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  46 _0x92922d ==  243 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,2436648,63] ============ 2436648 >> 63 = 40
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  244 _0x4d9ccd:  ["DFSzswV","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,40,63]      ====== "Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=".charAt(40)
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  24 _0x92922d ==  246 _0x4d9ccd:  ["DFSzswV","Y",null,40,63]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  23 _0x92922d ==  247 _0x4d9ccd:  ["DFSzswVY","Y",null,40,63]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  53 _0x92922d ==  250 _0x4d9ccd:  ["DFSzswVY",[[],"=",{"s0":"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=","s1":"Dkdpgh4ZKsQB80/Mfvw36XI1R25+WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","s2":"Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe="},"Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","DFSzswV",2436648,6],4,40,63]
@@ -6494,7 +6501,7 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  173 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  74 _0x92922d ==  176 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",4,61,18]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  177 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",61,18]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  180 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,61,18]
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  5 _0x92922d ==  183 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,18]
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  5 _0x92922d ==  183 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,18]       ====== 258048 = ( ( ( (指令数组[pos = 183] << 8) + 指令数组[pos = 184] ) << 8 ) + 指令数组[pos = 185] ) << 8 + 指令数组[pos = 186]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  46 _0x92922d ==  188 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,258048]  ============ 16142494 & 258048 = 151552 (258048 固定？)
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  189 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,151552,258048]     ============ 12 << 24 >> 24 = 12
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  44 _0x92922d ==  191 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjt","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,151552,12]        ============ 151552 >> 12 = 37
@@ -6510,7 +6517,7 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  203 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  74 _0x92922d ==  206 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",4,37,12]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  207 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",37,12]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  210 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,37,12]
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  4 _0x92922d ==  213 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,12]
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  4 _0x92922d ==  213 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,12]       ====== 4032 = ( ( ( (指令数组[pos = 213] << 8) + 指令数组[pos = 214] ) << 8 ) + 指令数组[pos = 215] ) << 8 + 指令数组[pos = 216]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  46 _0x92922d ==  216 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,4032]   ============ 16142494 & 4032 = 128 (4032 固定？)
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  217 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,128,4032]         ============ 6 << 24 >> 24 = 6 (控制边界吧？)
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  44 _0x92922d ==  219 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtb","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,128,6]           ============ 128 >> 6 = 2
@@ -6526,9 +6533,9 @@ webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  231 _0x4d9ccd:  
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  74 _0x92922d ==  234 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",4,2,6]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  18 _0x92922d ==  235 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",2,6]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  17 _0x92922d ==  238 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,2,6]
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  241 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,6]
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  3 _0x92922d ==  241 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,6]   ======= 30 = 指令数组[pos = 241]
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  46 _0x92922d ==  243 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,16142494,63] ============ 16142494 & 63 = 30
-webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  244 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,30,63]
+webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  67 _0x92922d ==  244 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=",null,30,63]       =========== "Dkdpgh4ZKsQB80/Mfvw36XI1R25-WUAlEi7NLboqYTOPuzmFjJnryx9HVGcaStCe=".charAt(30)
 webmssdk_1.0.0.56.es5.js:73 Log1 _0x46af45 ==  24 _0x92922d ==  246 _0x4d9ccd:  ["DFSzswVYPyWdUvB4tpfX0HSjtbd","A",null,30,63]
 
 

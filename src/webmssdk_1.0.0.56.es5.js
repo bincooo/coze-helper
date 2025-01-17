@@ -68,8 +68,8 @@ if (!window.byted_acrawler) {
       }
       _0x30da56.p = _0x93300d;
       for (var _0xbbd354 = [];;) {
-        try {
           var _0x46af45 = _0x1b3fba[_0x92922d++];
+          // Log('_0x46af45 ==', _0x46af45, '_0x92922d ==', _0x92922d, '_0x4d9ccd: ', _0x4d9ccd, '_0x30da56: ', _0x30da56, '_0xbbd354: ', _0xbbd354)
           if (_0x46af45 < 39) {
             if (_0x46af45 < 19) {
               if (_0x46af45 < 7) {
@@ -281,7 +281,7 @@ if (!window.byted_acrawler) {
               _0x4d9ccd[_0x45c8d7] = _0x4d9ccd[_0x45c8d7] in _0x10a34d;
             } else {
               _0x10a34d = _0x4d9ccd[_0x45c8d7--];
-              _0x4d9ccd[_0x45c8d7] = _0x4d9ccd[_0x45c8d7] instanceof _0x10a34d;
+              _0x4d9ccd[_0x45c8d7] = true; // _0x4d9ccd[_0x45c8d7] instanceof _0x10a34d;
             }
           } else if (_0x46af45 < 66) {
             if (_0x46af45 < 61) {
@@ -296,7 +296,7 @@ if (!window.byted_acrawler) {
               } else if (_0x46af45 === 59) {
                 _0x279f5b = _0x1b3fba[_0x92922d++];
                 _0x10a34d = _0x4d9ccd[_0x45c8d7--];
-                (window.open = _0x4c4d79 = function _0x467b08() {
+                (_0x4c4d79 = function _0x467b08() {
                   var _0x440446 = _0x467b08._u;
                   var _0x428571 = _0x467b08._v;
                   return _0x440446(_0x428571[0], arguments, _0x428571[1], _0x428571[2], this);
@@ -448,54 +448,11 @@ if (!window.byted_acrawler) {
             _0x10a34d = _0x4d9ccd[_0x45c8d7];
             _0x4d9ccd[++_0x45c8d7] = _0x10a34d;
           }
-        } catch (_0x250034) {
-          for (_0x5e2c95 = [0, null]; (_0x279f5b = _0xbbd354.pop()) && !_0x279f5b[0];);
-          if (!_0x279f5b) {
-            _0x1945d9: for (; _0x1fb984;) {
-              for (_0x10a34d = _0x1fb984[4]; _0x279f5b = _0x10a34d.pop();) {
-                if (_0x279f5b[0]) {
-                  break _0x1945d9;
-                }
-              }
-              _0x1fb984 = _0x1fb984[0];
-            }
-            if (!_0x1fb984) {
-              throw _0x250034;
-            }
-            _0x92922d = _0x1fb984[1];
-            _0xd15506 = _0x1fb984[2];
-            _0x30da56 = _0x1fb984[3];
-            _0xbbd354 = _0x1fb984[4];
-            _0x1fb984 = _0x1fb984[0];
-          }
-          if ((_0x10a34d = _0x279f5b[0]) === 1) {
-            _0x92922d = _0x279f5b[2];
-            _0x279f5b[0] = 0;
-            _0xbbd354.push(_0x279f5b);
-            _0x4d9ccd[++_0x45c8d7] = _0x250034;
-          } else if (_0x10a34d === 2) {
-            _0x92922d = _0x279f5b[2];
-            _0x279f5b[0] = 0;
-            _0xbbd354.push(_0x279f5b);
-            _0x5e2c95 = [3, _0x250034];
-          } else {
-            _0x92922d = _0x279f5b[3];
-            _0x279f5b[0] = 2;
-            _0xbbd354.push(_0x279f5b);
-            _0x4d9ccd[++_0x45c8d7] = _0x250034;
-          }
-        }
+        
       }
     }(_0x2b7de7, [], 0, _0x17eb42, _0x2bd539);
   }
   (function (_0x71084f, _0x52fb7c) {
-    // if (typeof exports == "object" && typeof module != "undefined") {
-    //   _0x52fb7c(exports);
-    // } else if (typeof define == "function" && define.amd) {
-    //   define(["exports"], _0x52fb7c);
-    // } else {
-    //   _0x52fb7c((_0x71084f = typeof globalThis != "undefined" ? globalThis : _0x71084f || self).byted_acrawler = {});
-    // }
     _0x52fb7c((_0x71084f = typeof globalThis != "undefined" ? globalThis : _0x71084f || self).byted_acrawler = {});
   })(this, function (_0x2b87de) {
     'use strict';
@@ -4522,6 +4479,9 @@ if (!window.byted_acrawler) {
       init: 0
     };
     var _0x489c6b = {
+      GPUINFO: "Google Inc. (AMD)/ANGLE (AMD, ANGLE Metal Renderer: AMD Radeon RX 560, Unspecified Version)",
+      PLUGIN: "PDF Viewerinternal-pdf-viewerapplication/pdftext/pdf##Chrome PDF Viewerinternal-pdf-viewerapplication/pdftext/pdf##Chromium PDF Viewerinternal-pdf-viewerapplication/pdftext/pdf##Microsoft Edge PDF Viewerinternal-pdf-viewerapplication/pdftext/pdf##WebKit built-in PDFinternal-pdf-viewerapplication/pdftext/pdf",     
+
       bogusIndex: 0,
       msNewTokenList: [],
       moveList: [],
@@ -4558,11 +4518,12 @@ if (!window.byted_acrawler) {
           return navigator;
         },
         get 1() {
-          if (typeof global != "undefined") {
-            return global;
-          } else {
-            return undefined;
-          }
+          // if (typeof global != "undefined") {
+          //   return global;
+          // } else {
+          //   return undefined;
+          // }
+          return undefined;
         },
         2: Object,
         get 3() {
@@ -5012,7 +4973,7 @@ if (!window.byted_acrawler) {
           return navigator;
         },
         get 2() {
-          return PluginArray;
+          return [] //PluginArray;
         },
         get 3() {
           return window;
@@ -7301,10 +7262,10 @@ if (!window.byted_acrawler) {
           _0x1adfa3();
         }
       }
-      if (window && window.addEventListener) {
-        window.addEventListener("beforeunload", _0x53a5e5);
-        window.addEventListener("unload", _0x53a5e5);
-      }
+      // if (window && window.addEventListener) {
+      //   window.addEventListener("beforeunload", _0x53a5e5);
+      //   window.addEventListener("unload", _0x53a5e5);
+      // }
     }
     function _0x45d6f5() {
       for (var _0x5e45a1 = document.cookie.split(";"), _0x3fa53c = [], _0x15a4f9 = 0; _0x15a4f9 < _0x5e45a1.length; _0x15a4f9++) {
