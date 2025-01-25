@@ -1,4 +1,6 @@
+const { dir } = require('node:console');
 const fs = require('node:fs')
+const projectDir = __dirname;
 Log = (...args) => {
     let content = '';
     for (let k in args) {
@@ -14,16 +16,27 @@ Log = (...args) => {
                 else if (obj == document) {
                     obj = '[object Document]'
                 }
+                else if (typeof v == 'function') {
+                    obj = '[object Function]'
+                }
                 return obj
             })
         }
         content += `${v} `
     }
     if (content != '') {
-        fs.writeFile('log.txt', content + '\n', { flag: 'a+' }, err => {
+        fs.writeFile('log.txt', getStackInfo(3) + '  -  ' + content + '\n', { flag: 'a+' }, err => {
             err && console.error(err)
         })
     }
+}
+
+function getStackInfo(pos = 0) {
+    const error = new Error();
+    const stackLines = error.stack.split("\n");
+    const callerLine = stackLines[pos];
+    const dirs = callerLine.split(projectDir);
+    return dirs.length >= 2 ? dirs[1].substr(1, dirs[1].length - 2): dir[0];
 }
 
 Date.prototype.getTime = function() {
@@ -433,7 +446,7 @@ function getEnvs(proxyObjs) {
 }
 
 proxyObjs = ['window', 'document', 'location', 'navigator', 'history', 'screen', 'canvas', 'PluginArray']
-getEnvs(proxyObjs);
+// getEnvs(proxyObjs);
 
 config = {
     state: {
