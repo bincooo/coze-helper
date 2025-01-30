@@ -1,7 +1,3 @@
-import puppeteer from 'puppeteer-extra'
-import StealthPlugin from 'puppeteer-extra-plugin-stealth'
-import * as edge from "edge-paths"
-
 import express, { Request, Response } from 'express'
 import bodyParser from 'body-parser'
 import morgan from 'morgan'
