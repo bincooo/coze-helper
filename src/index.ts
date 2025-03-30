@@ -26,8 +26,8 @@ function server() {
         const body = request.body
         console.log(body)
         try {
-            const { challenge, salt, diff } = body
-            const num = await dsSdk.calc(challenge, salt, diff)
+            const { challenge, salt, diff, expireAt } = body
+            const num = await dsSdk.calc(challenge, salt, diff, expireAt)
             response.json({
                 ok: true,
                 data: num,
